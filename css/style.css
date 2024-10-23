@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta sans", sans-serif;
+}
+
+input,
+button {
+    font-size: 16px;
+}
+
+.head-bar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.head-bar {
+    background-color: #cbd2a4;
+    color: #54473f;
+    padding: 30px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+main {
+    background-color: #e9eed9;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+section {
+    width: 45vw;
+    background-color: #f4f6ff;
+    border-radius: 20px;
+}
+
+.judul-box {
+    background-color: #cbd2a4;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.isi-box {
+    margin: 20px;
+}
+
+.container-book {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.judul-box h2 {
+    text-align: center;
+    color: #54473f;
+}
+
+.input-section .isi-box form .input {
+    margin: 10px 0;
+}
+
+.input-section .isi-box form button {
+    background-color: #cbd2a4;
+    color: #54473f;
+    border: 0;
+    border-radius: 20px;
+    float: right;
+    display: block;
+    width: 30%;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.input-section .isi-box form .input input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 15px;
+    margin-top: 10px;
+    border: #cbd2a4;
+    background-color: #cbd2a4;
+    color: #54473f;
+}
+
+.input-section .isi-box form .input label {
+    color: #54473f;
+    font-weight: bold;
+}
+
+.input-inline {
+    margin: 12px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.input-inline label {
+    color: #54473f;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.search-section form {
+    display: grid;
+    grid-template-columns: auto 0.2fr 0fr;
+    grid-gap: 10px;
+}
+
+.search-section form label {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #54473f;
+    font-weight: bold;
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+
+.search-section input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 15px;
+    margin-top: 10px;
+    border: #cbd2a4;
+    background-color: #cbd2a4;
+    color: #54473f;
+}
+
+.search-section form button {
+    background-color: #cbd2a4;
+    color: #54473f;
+    border: 0;
+    border-radius: 20px;
+    display: block;
+    width: 30%;
+    padding: 8px;
+    margin-top: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.book-item {
+    margin-top: 10px;
+    padding: 10px;
+    color: #54473f;
+}
+
+.remove-button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #f93737;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.toggle-button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #cbd2a4;
+    color: #54473f;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #cbd2a4;
+    padding: 10px;
+    color: #54473f;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #54473f;
+}
