@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
     submitForm.addEventListener("submit", function (e) {
         e.preventDefault();
         addBook();
+
+        document.getElementById("bookForm").reset();
     });
 
     function addBook() {
@@ -212,6 +214,8 @@ document.addEventListener("DOMContentLoaded", function () {
             }
             console.log(title.innerText.toLowerCase(), titleSearch);
         }
+
+        document.getElementById("searchBook").reset();
     });
 
     const updateBook = (bookId) => {
